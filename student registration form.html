@@ -1,0 +1,164 @@
+<html>
+<head>
+    <title>Student Registration Form</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0be4a3;
+    background: c:\Users\hp\Desktop\New folder\background.png;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+background-color: rgb(10, 210, 245);
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #070707;
+    border-radius: 10   px;
+    box-sizing: border-box;
+    color: rgb(240, 150, 16);
+    font-weight: 200;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" name="nationality" required>
+            </div>
+            <div class="form-group">
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address Line 1:</label>
+                <input type="text" id="address" name="address1" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="state">State/Province:</label>
+                <input type="text" id="state" name="state" required>
+            </div>
+            <!-- <div class="form-group">
+                <label for="zip">Postal Code/ZIP:</label>
+                <input type="text" id="zip" name="zip" required>
+            </div> -->
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+            </div>
+            <div class="form-group">
+                <label for="prevSchool">Previous School/College Name:</label>
+                <input type="text" id="prevSchool" name="prevSchool" required>
+            </div>
+            <div class="form-group">
+                <label for="grade">Year Completed:</label>
+                <input type="text" id="grade" name="grade" required>
+            </div>
+            <div class="form-group">
+                <label for="major">Area of Study:</label>
+                <input type="text" id="major" name="major" required>
+            <div class="form-group">
+                <label for="course">Preferred Course/Program:</label>
+                <input type="text" id="course" name="course" required>
+            </div>
+            <div class="form-group">
+                <label for="reason">Reason for Choosing this Course/Program:</label>
+                <textarea id="reason" name="reason" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="interests">Hobbies:</label>
+                <input type="text" id="interests" name="interests">
+            </div>
+            <div class="form-group">
+                <label for="languages">Languages Spoken:</label>
+                <input type="text" id="languages" name="languages">
+            </div>
+            <div class="form-group">
+                <label for="accomplishments">Awards:</label>
+                <textarea id="accomplishments" name="accomplishments" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="declaration">Declaration:</label>
+                <input type="checkbox" id="declaration" name="declaration" required>
+                <span>I hereby declare that all the information provided above is true to the best of my knowledge.</span>
+            </div>
+            <div class="form-group">
+                <label for="signature">Signature:</label>
+                <input type="text" id="signature" name="signature" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date of submition:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
